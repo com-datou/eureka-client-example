@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.datou</groupId>
-	<artifactId>com.datou</artifactId>
+	<artifactId>com.datou.eureka</artifactId>
 	<version>0.0.1</version>
 	<name>datou-eureka-client-example</name>
 	<description>user managerment for hehe</description>
@@ -36,6 +36,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+		    <groupId>org.jolokia</groupId>
+		    <artifactId>jolokia-core</artifactId>
 		</dependency>
 	</dependencies>
 

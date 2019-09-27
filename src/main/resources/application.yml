@@ -1,21 +1,12 @@
 server:
   servlet:
-    application-display-name: euraka-client
+    application-display-name: eureka-client
+    context-path: /eureka/client/
   port: 8082
 spring:
   application:
     name: eureka-client
 
-management:
-  endpoint:
-    beans:
-      enabled: true
-    health:
-      show-details: always
-    refresh:
-      enabled: true
-    
-    
 eureka:
   client:
     service-url:
