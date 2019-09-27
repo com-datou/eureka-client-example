@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.datou</groupId>
-	<artifactId>com.datou.eureka</artifactId>
+	<artifactId>datou-eureka-client-example</artifactId>
 	<version>0.0.1</version>
 	<name>datou-eureka-client-example</name>
 	<description>user managerment for hehe</description>
