@@ -11,7 +11,7 @@
 	<groupId>com.datou</groupId>
 	<artifactId>datou-eureka-client-example</artifactId>
 	<version>0.0.1</version>
-	<name>datou-eureka-client-example</name>
+	<name>eureka-client-example</name>
 	<description>user managerment for hehe</description>
 
 	<properties>
