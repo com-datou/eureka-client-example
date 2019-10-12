@@ -4,6 +4,11 @@ server:
     context-path: /eureka/client/
   port: 8082
 spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true                #这块表示启用service-id不用uri
+        service-id: CONFIG-SERVER-EXAMPLE #这块是服务的id
   application:
     name: eureka-client
 
