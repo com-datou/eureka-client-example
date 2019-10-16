@@ -7,9 +7,11 @@ spring:
         enabled: true
         service-id: CONFIG-SERVER-EXAMPLE
   application:
-    name: eureka-client
+    name: eureka-client-example
 server:
   port: 8082
+  servlet:
+    context-path: /eureka/client
 eureka:
   instance:
     prefer-ip-address: true
